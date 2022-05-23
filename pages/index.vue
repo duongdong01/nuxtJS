@@ -1,6 +1,6 @@
 <template>
   <div class="ct">
-    <event-alert></event-alert>
+    <event-alert />
     <div class="banner">
       <div class="thumbnail-banner" />
     </div>
@@ -30,10 +30,10 @@
 </template>
 
 <script>
-import EventAlert from '~/components/Alert/EventAlert.vue';
+import EventAlert from '~/components/Alert/EventAlert.vue'
 export default {
-    name: "IndexPage",
-    components: { EventAlert }
+  name: 'IndexPage',
+  components: { EventAlert }
 }
 </script>
 

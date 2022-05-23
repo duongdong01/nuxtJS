@@ -2,6 +2,7 @@
 <template>
   <div>
     <default-header />
+
     <nuxt />
     <default-footer />
 

@@ -29,6 +29,7 @@ export default {
     DeckList
 
   },
+  middleware: ['auth', 'check-auth'],
   head: {
     title: 'My Decks | Learning Language'
   },

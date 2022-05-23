@@ -19,9 +19,15 @@
         </li>
       </ul>
     </div>
-    <nuxt-child></nuxt-child>
+    <nuxt-child />
   </div>
 </template>
+<script>
+export default {
+  middleware: 'auth'
+}
+
+</script>
 
 <style lang="scss">
     .page{

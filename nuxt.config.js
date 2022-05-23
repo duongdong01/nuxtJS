@@ -72,6 +72,7 @@ export default {
   // THAY VÌ GHI CẢ LINK API HTTP.. RA THÌ CHỈ CẦN GHI process.env.BASE_API_URl
   env: {
     baseURL: process.env.BASE_URL || 'https://localhost:3000',
-    baseApiUrl: process.env.BASE_API_URL || 'https://nuxt-learning-english-9f050-default-rtdb.firebaseio.com'
+    baseApiUrl: process.env.BASE_API_URL || 'https://nuxt-learning-english-9f050-default-rtdb.firebaseio.com',
+    fbApiKey: 'AIzaSyCPGB55-xJS-7zoXcGvYPLKAf8V0o3q-UQ'
   }
 }
